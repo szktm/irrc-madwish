@@ -75,7 +75,6 @@ export const teacherActions = {
         ReasonString: reason
         })
     }
-
     // fetch("/api/statusUpdates", statusUpdateRequestOptions)
     // .then((response) => {
     //     if(response.status !== 200) {

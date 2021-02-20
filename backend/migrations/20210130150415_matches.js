@@ -13,6 +13,7 @@ exports.up = (knex) => {
           "Active",
           "Pending"
       ])
+      table.boolean('isDeleted').notNullable().defaultTo(false)
       table.datetime('ConfirmedDate')
     })
   }
